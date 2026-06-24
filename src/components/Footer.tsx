@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="mx-auto flex max-w-5xl flex-col items-center gap-3 text-center">
         <p className="text-sm text-muted">
           Built by <span className="text-text">Jatin Acharya</span> ·{" "}
-          <a href="mailto:your-email@example.com" className="underline hover:text-accent">
+          <a href="mailto:jatinacharyan@gmail.com" className="underline hover:text-accent">
             Jatinacharyan@gmail.com
           </a>
         </p>
