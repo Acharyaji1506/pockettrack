@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0a0e16;
+  --surface-solid: #131826;
+  --surface-2: #1b2333;
+  --accent: #b6ff3c;
+  --accent-soft: #b6ff3c26;
+  --teal: #34e0c4;
+  --text: #eaf0f7;
+  --muted: #7c8aa0;
+  --danger: #ff5c72;
+  --border: #232c40;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface-solid);
+  --color-surface-2: var(--surface-2);
+  --color-accent: var(--accent);
+  --color-teal: var(--teal);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-danger: var(--danger);
+  --color-border: var(--border);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: radial-gradient(circle at 15% 0%, #16ff8a0d, transparent 40%),
+    radial-gradient(circle at 85% 10%, #34e0c40d, transparent 45%), var(--bg);
+  font-family: var(--font-body), sans-serif;
+}
+
+h1, h2, h3, .display {
+  font-family: var(--font-display), sans-serif;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--surface-2) transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
