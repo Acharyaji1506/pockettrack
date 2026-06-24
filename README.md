@@ -4,8 +4,8 @@ A daily expense tracker built for students and bachelors. Log what you spend
 on a calendar, see monthly totals, get a daily reminder, and your data quietly
 ages out after a year. Built for the Digital Heroes developer trial task.
 
-**Live tool:** _add your Vercel URL here_
-**Built by:** Jatin Acharya — _add your email here_
+**Live tool:** pockettrack-beta.vercel.app
+**Built by:** Jatin Acharya —jatinacharyan@gmail.com
 
 ## Stack (all free tiers)
 
